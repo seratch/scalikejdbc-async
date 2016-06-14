@@ -5,7 +5,7 @@ object ScalikeJDBCAsyncProject extends Build {
 
   lazy val _version = "0.6.0"
   lazy val scalikejdbcVersion = "2.4.0"
-  lazy val mauricioVersion = "0.2.19" // provided
+  lazy val mauricioVersion = "0.2.20" // provided
   lazy val postgresqlVersion = "9.4-1201-jdbc41"
   lazy val defaultPlayVersion = play.core.PlayVersion.current
 
