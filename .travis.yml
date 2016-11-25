@@ -15,6 +15,7 @@ before_script:
 - psql -c "CREATE ROLE sa WITH SUPERUSER LOGIN PASSWORD 'sa';" -U postgres
 - psql -c "CREATE DATABASE scalikejdbc;" -U postgres
 - psql -c "CREATE DATABASE scalikejdbc2;" -U postgres
+- mysql --version
 - mysql -e 'GRANT ALL ON *.* TO sa@"localhost"IDENTIFIED BY "sa";FLUSH PRIVILEGES;'
   -uroot
 - mysql -e "CREATE DATABASE scalikejdbc;" -usa -psa
